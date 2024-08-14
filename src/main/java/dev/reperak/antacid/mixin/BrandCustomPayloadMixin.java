@@ -1,10 +1,12 @@
 package dev.reperak.antacid.mixin;
 
 import dev.reperak.antacid.Antacid;
-import net.minecraft.network.packet.BrandCustomPayload;
+
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyArg;
 import org.spongepowered.asm.mixin.Mixin;
+
+import net.minecraft.network.packet.BrandCustomPayload;
 
 @Mixin(value = BrandCustomPayload.class)
 public class BrandCustomPayloadMixin

@@ -1,11 +1,13 @@
 package dev.reperak.antacid.mixin;
 
 import dev.reperak.antacid.Antacid;
-import net.minecraft.client.realms.RealmsClient;
+
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.Mixin;
+
+import net.minecraft.client.realms.RealmsClient;
 
 @Mixin(value = RealmsClient.class)
 public class RealmsClientMixin
