@@ -4,8 +4,7 @@
 	"plugin": "dev.reperak.antacid.integration.sodium.SodiumMixinPlugin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"SodiumGameOptionsMixin",
-		"SodiumGameOptionsMixin$NotificationSettingsMixin"
+		"SodiumOptionsGUIMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
