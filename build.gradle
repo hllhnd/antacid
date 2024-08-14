@@ -36,10 +36,6 @@ processResources {
 	}
 }
 
-tasks.withType(JavaCompile).configureEach {
-	it.options.release = 21
-}
-
 java {
 	withSourcesJar()
 
@@ -48,7 +44,7 @@ java {
 }
 
 jar {
-	from("LICENSE") {
-		rename { "${it}_${project.base.archivesName.get()}"}
+	from(["COPYING", "COPYING.LESSER"]) {
+		rename { "${it}" }
 	}
 }
