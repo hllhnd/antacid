@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.reperak.antacid.integration.sodium.mixin",
+	"plugin": "dev.reperak.antacid.integration.sodium.SodiumMixinPlugin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SodiumGameOptionsMixin",
+		"SodiumGameOptionsMixin$NotificationSettingsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

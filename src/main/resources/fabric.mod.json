@@ -18,7 +18,8 @@
 		]
 	},
 	"mixins": [
-		"antacid.mixins.json"
+		"antacid.mixins.json",
+		"antacid.integration.sodium.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
