@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.reperak.antacid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BrandCustomPayloadMixin",
+		"RealmsClientMixin",
+		"TelemetryManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
