@@ -6,7 +6,9 @@
 		"BrandCustomPayloadMixin",
 		"MinecraftClientMixin",
 		"OptionsScreenMixin",
-		"RealmsClientMixin"
+		"RealmsClientMixin",
+		"TitleScreenMixin",
+		"TitleScreenMixin$ScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
